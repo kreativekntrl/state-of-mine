@@ -1,20 +1,31 @@
 import React from 'react';
 
+
 export default function Contact() {
     return (
       <div>
           <h1>CONTACT ME.</h1>
           <section id="contactMe" className="contactMe d-flex justify-content-center">
-            <button className="contactDiv gmail">
+            <button className="contactDiv gmail btn btn-dark">
                 <img src="./src/images/github.png" alt="gmail icon link" className="contactImg" />
             </button>
-            <button className="contactDiv gitHub">
+            <button className="contactDiv gitHub btn btn-dark">
                 <img src="./images/github.png" alt="GitHub icon link" className="contactImg" />
             </button>
-            <button className="contactDiv linkedIn">
+            <button className="contactDiv linkedIn btn btn-dark">
                 <img src="./images/linked.png" alt="LinkedIn icon link" className="contactImg" />
-            </button>
+            </button> 
+
         </section>
+
+    <button className="btn btn-dark">
+        <a
+          href="http://github.com/kreativekntrl"
+          onClick={() => window.location.href('http://github.com/kreativekntrl')}
+        >
+          About Me
+        </a>
+      </button>
 
         <form className="contact-form bg-light">
   <div className="form-group">
