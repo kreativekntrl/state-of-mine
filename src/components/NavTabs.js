@@ -1,8 +1,15 @@
 import React from 'react';
 
+  
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
 <nav className="navbar">
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">AVA.</h1>
+  </div>
+</div>
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a

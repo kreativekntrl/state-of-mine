@@ -9,6 +9,12 @@ body {
   color: white;
 }
 
+.contact-form {
+  color: black;
+  padding: 15px;
+  margin: 50px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
