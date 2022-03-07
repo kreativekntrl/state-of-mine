@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/state-of-mine/static/css/main.e6c13ad2.css",
-    "main.js": "/state-of-mine/static/js/main.fe6bea92.js",
+    "main.css": "/state-of-mine/static/css/main.86499e19.css",
+    "main.js": "/state-of-mine/static/js/main.ebf3f12b.js",
     "static/js/787.a87b3ff7.chunk.js": "/state-of-mine/static/js/787.a87b3ff7.chunk.js",
     "index.html": "/state-of-mine/index.html",
-    "main.e6c13ad2.css.map": "/state-of-mine/static/css/main.e6c13ad2.css.map",
-    "main.fe6bea92.js.map": "/state-of-mine/static/js/main.fe6bea92.js.map",
+    "main.86499e19.css.map": "/state-of-mine/static/css/main.86499e19.css.map",
+    "main.ebf3f12b.js.map": "/state-of-mine/static/js/main.ebf3f12b.js.map",
     "787.a87b3ff7.chunk.js.map": "/state-of-mine/static/js/787.a87b3ff7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.fe6bea92.js"
+    "static/css/main.86499e19.css",
+    "static/js/main.ebf3f12b.js"
   ]
 }
