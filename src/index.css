@@ -9,6 +9,11 @@ body {
   color: white;
 }
 
+.bioPic {
+  background-image: url("/src/components/images/mobileImg.jpg");
+  width: 200px;
+}
+
 .contact-form {
   color: black;
   padding: 20px;
@@ -19,6 +24,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+iframe {
+  width: 50%;
+  height: 50%;
 }
 
 

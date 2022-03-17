@@ -1,4 +1,8 @@
 import React from 'react';
+import gmail from "../images/email-logo.png"
+import gitHub from "../images/gitHub-logo.png"
+import linkedIn from "../images/linkedin-logo.png"
+
 
 const styles = {
   h1: {
@@ -6,8 +10,9 @@ const styles = {
     textAlign: "center",
   },
   btn: {
-    padding: "10px",
     margin: "10px",
+    borderRadius: "30px",
+    backgroundColor: "white",
   }
 }
 
@@ -24,20 +29,20 @@ export default function Contact() {
             <button 
               onClick={handleEmailClick}
               style={styles.btn}
-              className="contactDiv gmail btn btn-dark">
-                Gmail
+              >
+                <img src={gmail} alt="gmailLogo" />
             </button>
             <a
               href="https://github.com/kreativekntrl"
               style={styles.btn} 
-              className="contactDiv gitHub btn btn-dark">
-                GitHub
+              >
+                <img src={gitHub} alt="gitHubLogo" />
             </a>
             <a 
               href="https://www.linkedin.com/in/avasteimle/"
               style={styles.btn} 
-              className="contactDiv linkedIn btn btn-dark">
-                LinkedIn
+              >
+                <img src={linkedIn} alt="linkedInLogo" />
             </a> 
         </section>
 
@@ -54,7 +59,7 @@ export default function Contact() {
   </div>
 
   <button
-    style={styles.btn} 
+    style={{margin: "10px"}} 
     type="submit" 
     className="btn btn-dark">Submit</button>
 </form>

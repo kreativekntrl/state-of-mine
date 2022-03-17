@@ -1,14 +1,16 @@
 import React from 'react';
 import { Image } from 'react-native';
+import ProfilePic from '../images/profile.jpg';
 
 const styles = {
   h1: {
     fontSize: "50px",
     textAlign: "center",
   },
+
   div: {
     display: "flex",
-    justifyContent: "center",
+    justifyContent: "end",
     margin: "20px",
     color: "black",
     background: "white",
