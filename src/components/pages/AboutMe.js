@@ -1,8 +1,10 @@
 import React from 'react';
+import { Image } from 'react-native';
 
 const styles = {
   h1: {
-    fontSize: "50px"
+    fontSize: "50px",
+    textAlign: "center",
   },
   div: {
     display: "flex",
@@ -11,7 +13,7 @@ const styles = {
     color: "black",
     background: "white",
     padding: "10px",
-    borderRadius: "10px"
+    borderRadius: "10px",
   }
 }
 
@@ -25,8 +27,8 @@ export default function About() {
         <div
         style={styles.div}>
         <p>
-            My name is Ava! I am a recent graduate of UCSD's coding bootcamp and looking for an entry level position as 
-            a backend developer. Constantly evolving my knowledge in JavaScript, React, jQuery, CSS, HTML5, Node.js, and SQL/noSQL database structures.
+            My name is Ava! I am a recent graduate of UCSD's coding bootcamp and actively seeking career opportunities as an entry level
+            backend developer. Constantly evolving my knowledge in JavaScript, React, jQuery, CSS, HTML5, Node.js, and SQL/noSQL database structures.
             Leveraging a background in mathematics and computer science to approach problems head on. 
             Completed an AS in Mathematics and went on to transfer to UCSD as an undergrad student. Recently completed a full stack 
             development certificate from UCSD’s Extension. I have focused the last few months on gaining technical skills and working on my 

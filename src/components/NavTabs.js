@@ -1,14 +1,20 @@
 import React from 'react';
 
-  
+const styles = {
+  nav: {
+    display: "block",
+  }
+}
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-<nav className="navbar">
+<nav 
+  style={styles.nav}
+  className="navbar">
 <div className="jumbotron jumbotron-fluid">
-  <div className="container">
+  {/* <div className="container">
     <h1 className="display-4">AVA.</h1>
-  </div>
+  </div> */}
 </div>
     <ul className="nav nav-tabs">
       <li className="nav-item">
