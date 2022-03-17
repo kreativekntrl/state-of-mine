@@ -11,8 +11,9 @@ body {
 
 .contact-form {
   color: black;
-  padding: 15px;
+  padding: 20px;
   margin: 50px;
+  border-radius: 10px;
 }
 
 code {
