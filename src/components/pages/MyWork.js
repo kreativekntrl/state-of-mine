@@ -7,14 +7,12 @@ const styles = {
   },
 };
 
-
-
 export default function Work() {
     return (
       <div>
           <h1>PROJECTS.</h1>
-          
-          <div className="card" style={styles.cards}>
+
+  <div className="card" style={styles.cards}>
   <Image className="card-img-top" src="..." alt="Card image cap" />
   <div className="card-body">
     <h5 className="card-title">Card title</h5>

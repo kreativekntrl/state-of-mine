@@ -5,9 +5,9 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
 <nav className="navbar">
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">AVA.</h1>
+<div className="jumbotron jumbotron-fluid">
+  <div className="container">
+    <h1 className="display-4">AVA.</h1>
   </div>
 </div>
     <ul className="nav nav-tabs">
@@ -15,7 +15,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#AboutMe"
           onClick={() => handlePageChange('AboutMe')}
-
           className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
         >
           About Me

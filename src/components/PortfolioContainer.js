@@ -4,16 +4,13 @@ import About from './pages/AboutMe';
 import Work from './pages/MyWork';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-import Home from './pages/Home';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('AboutMe');
 
   // This function is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
     switch (currentPage) {
-      case 'Home':
-        return <Home />;
       case 'AboutMe':
         return <About />;
       case 'MyWork':
