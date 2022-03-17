@@ -4,13 +4,17 @@ import { Image } from 'react-native';
 const styles = {
   h1: {
     fontSize: "50px",
-    textAlign: "center"
+    textAlign: "center",
+  },
+  title: {
+    fontWeight: "bold"
   },
   cards: {
       width: "20rem", 
       margin: "10px",
       borderRadius: "8px",
-      color: "black"
+      color: "black",
+      lineHeight: "1",
   },
   div: {
     display: "flex",
@@ -29,7 +33,9 @@ export default function Work() {
   <div className="card" style={styles.cards}>
   <Image className="card-img-top" src="..." alt="Card image cap" />
   <div className="card-body">
-    <h5 className="card-title">The Attic</h5>
+    <h5
+      style={styles.title}
+      className="card-title">The Attic</h5>
     <p className="card-text">A MERN stack web app for developers to keep the code they can't forget</p>
     <a href="https://the-attic.herokuapp.com/" className="btn btn-dark">VIEW MORE.</a>
   </div>
@@ -38,7 +44,9 @@ export default function Work() {
   <div className="card" style={styles.cards}>
   <Image className="card-img-top" src="..." alt="Card image cap" />
   <div className="card-body">
-    <h5 className="card-title">Recipe Roulette</h5>
+    <h5 
+      style={styles.title}
+      className="card-title">Recipe Roulette</h5>
     <p className="card-text">A fun web app that allows anyone to generate a random recipe and shopping list!</p>
     <a href="https://kreativekntrl.github.io/project-01/" className="btn btn-dark">VIEW MORE.</a>
   </div>
@@ -47,7 +55,9 @@ export default function Work() {
   <div className="card" style={styles.cards}>
   <Image className="card-img-top" src="..." alt="Card image cap" />
   <div className="card-body">
-    <h5 className="card-title">Flix Factory !</h5>
+    <h5
+      style={styles.title} 
+      className="card-title">Flix Factory</h5>
     <p className="card-text">A social platform for anyone to comment on and share they excitement about popular tv series</p>
     <a href="https://flix-factory.herokuapp.com/" className="btn btn-dark">VIEW MORE.</a>
   </div>
@@ -56,7 +66,9 @@ export default function Work() {
   <div className="card" style={styles.cards}>
   <Image className="card-img-top" src="..." alt="Card image cap" />
   <div className="card-body">
-    <h5 className="card-title">Not Your Every Weather App</h5>
+    <h5
+      style={styles.title} 
+      className="card-title">When it rains..</h5>
     <p className="card-text">Weather app that implements server side API's for current weather conditions in the city near you</p>
     <a href="#" className="btn btn-dark">VIEW MORE.</a>
   </div>

@@ -7,13 +7,13 @@ const styles = {
   },
   btn: {
     padding: "10px",
-    margin: "10px"
+    margin: "10px",
   }
-
 }
+
 export default function Contact() {
-  const handleSubmit = () => {
-    
+  const handleEmailClick = () => {
+    window.open('mailto:avamsteimle@example.com?subject=Subject');
   }
     return (
       <div>
@@ -22,6 +22,7 @@ export default function Contact() {
             CONTACT ME.</h1>
           <section id="contactMe" className="contactMe d-flex justify-content-center">
             <button 
+              onClick={handleEmailClick}
               style={styles.btn}
               className="contactDiv gmail btn btn-dark">
                 Gmail
@@ -38,7 +39,6 @@ export default function Contact() {
               className="contactDiv linkedIn btn btn-dark">
                 LinkedIn
             </a> 
-
         </section>
 
   <form className="contact-form bg-light">
@@ -56,8 +56,7 @@ export default function Contact() {
   <button
     style={styles.btn} 
     type="submit" 
-    className="btn btn-dark"
-    onClick={handleSubmit}>Submit</button>
+    className="btn btn-dark">Submit</button>
 </form>
 </div>
     );
