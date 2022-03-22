@@ -31,7 +31,7 @@ export default function About() {
         <p>
             My name is Ava! I am a recent graduate of UCSD's coding bootcamp and actively seeking career opportunities as an entry level
             backend developer. Constantly evolving my knowledge in JavaScript, React, jQuery, CSS, HTML5, Node.js, and SQL/noSQL database structures.
-            Leveraging a background in mathematics and computer science to approach problems head on. 
+            Leveraging a background in mathematics and computer science to approach problems head on with experience working in an agile environment. 
             Completed an AS in Mathematics and went on to transfer to UCSD as an undergrad student. Recently completed a full stack 
             development certificate from UCSD’s Extension. I have focused the last few months on gaining technical skills and working on my 
             craft as a developer. I am known to be a problem solver and approach problems holistically in both my personal life and 
