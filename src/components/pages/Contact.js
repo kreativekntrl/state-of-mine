@@ -45,24 +45,6 @@ export default function Contact() {
                 <img src={linkedIn} alt="linkedInLogo" />
             </a> 
         </section>
-
-  <form className="contact-form bg-light">
-  <div className="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="JeffBezos@gmail.com" />
-    <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-
-  <div className="form-group">
-    <label for="textInput">Note</label>
-    <input type="text" className="form-control" id="textInput" placeholder="Hey Ava.." />
-  </div>
-
-  <button
-    style={{margin: "10px"}} 
-    type="submit" 
-    className="btn btn-dark">Submit</button>
-</form>
 </div>
     );
   }

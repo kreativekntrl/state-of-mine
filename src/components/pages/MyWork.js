@@ -70,7 +70,7 @@ export default function Work() {
       style={styles.title} 
       className="card-title">When it rains..</h5>
     <p className="card-text">Weather app that implements server side API's for current weather conditions in the city near you</p>
-    <a href="#" className="btn btn-dark">VIEW MORE.</a>
+    <a href="https://kreativekntrl.github.io/weather-app/" className="btn btn-dark">VIEW MORE.</a>
   </div>
   </div>
       </div>
