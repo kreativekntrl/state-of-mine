@@ -16,9 +16,6 @@ function NavTabs({ currentPage, handlePageChange }) {
   style={styles.nav}
   className="navbar">
 <div className="jumbotron jumbotron-fluid">
-  {/* <div className="container">
-    <h1 className="display-4">AVA.</h1>
-  </div> */}
 </div>
     <ul className="nav nav-tabs">
       <li className="nav-item">
