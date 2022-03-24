@@ -5,7 +5,8 @@ const styles = {
     display: "block",
   },
   link: {
-    color: "white"
+    color: "white",
+    fontSize: "20px"
   },
 }
 
