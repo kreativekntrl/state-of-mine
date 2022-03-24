@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/state-of-mine/static/css/main.a2a13b6e.css",
-    "main.js": "/state-of-mine/static/js/main.b12db359.js",
+    "main.css": "/state-of-mine/static/css/main.b626be2b.css",
+    "main.js": "/state-of-mine/static/js/main.32b6119c.js",
     "static/js/787.a87b3ff7.chunk.js": "/state-of-mine/static/js/787.a87b3ff7.chunk.js",
     "static/media/profile.jpg": "/state-of-mine/static/media/profile.83e72f9f44137628654a.jpg",
     "static/media/mobileImg.jpg": "/state-of-mine/static/media/mobileImg.264b34505390a4df1368.jpg",
     "static/media/resume.png": "/state-of-mine/static/media/resume.4a2565a1b7d81373f0ce.png",
     "static/media/resume.pdf": "/state-of-mine/static/media/resume.e0a142a947ac90c229e5.pdf",
     "index.html": "/state-of-mine/index.html",
-    "main.a2a13b6e.css.map": "/state-of-mine/static/css/main.a2a13b6e.css.map",
-    "main.b12db359.js.map": "/state-of-mine/static/js/main.b12db359.js.map",
+    "main.b626be2b.css.map": "/state-of-mine/static/css/main.b626be2b.css.map",
+    "main.32b6119c.js.map": "/state-of-mine/static/js/main.32b6119c.js.map",
     "787.a87b3ff7.chunk.js.map": "/state-of-mine/static/js/787.a87b3ff7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2a13b6e.css",
-    "static/js/main.b12db359.js"
+    "static/css/main.b626be2b.css",
+    "static/js/main.32b6119c.js"
   ]
 }
