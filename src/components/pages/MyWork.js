@@ -28,6 +28,8 @@ export default function Work() {
   <h1
   style={styles.h1}>PROJECTS.</h1>
   <div
+
+  className='row d-flex justify-content-center mx-0'
   style={styles.div}>
 
   <div className="card" style={styles.cards}>
@@ -68,7 +70,7 @@ export default function Work() {
   <div className="card-body">
     <h5
       style={styles.title} 
-      className="card-title">When it rains..</h5>
+      className="card-title">When it Rains..</h5>
     <p className="card-text">Weather app that implements server side API's for current weather conditions in the city near you</p>
     <a href="https://kreativekntrl.github.io/weather-app/" className="btn btn-dark">VIEW MORE.</a>
   </div>

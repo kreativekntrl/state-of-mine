@@ -14,21 +14,16 @@ body {
   width: 200px;
 }
 
-.contact-form {
-  color: black;
-  padding: 20px;
-  margin: 50px;
-  border-radius: 10px;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-iframe {
-  width: 50%;
-  height: 50%;
-}
-
+/* @media screen and (min-width: 726px) {
+  .projects {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+} */
 
