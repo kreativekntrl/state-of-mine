@@ -25,7 +25,7 @@ export default function Contact() {
           <h1
           style={styles.h1}>
             CONTACT ME.</h1>
-          <section id="contactMe" className="contactMe d-flex justify-content-center">
+          <section id="contactMe" className="contactMe d-flex justify-content-center align-">
             <button 
               onClick={handleEmailClick}
               style={styles.btn}
@@ -38,7 +38,7 @@ export default function Contact() {
               >
                 <img src={gitHub} alt="gitHubLogo" />
             </a>
-            <a 
+            <a
               href="https://www.linkedin.com/in/avasteimle/"
               style={styles.btn} 
               >
