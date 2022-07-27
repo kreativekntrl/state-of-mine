@@ -1,6 +1,4 @@
 import React from 'react';
-import resume from '/Users/avamaree/Desktop/GitHub-Assignments/state-of-mine/src/components/images/resume.png'
-import resumePdf from "/Users/avamaree/Desktop/GitHub-Assignments/state-of-mine/src/resume.pdf"
 
 const styles = {
   h1: {
@@ -20,9 +18,9 @@ export default function Resume() {
       <div
         style={styles.photo}>
           <h6>click to download</h6>
-      <a href={resumePdf} download>
+      {/* <a href={resumePdf} download>
       <img src={resume} className="img-thumbnail shadow" alt="Profile" />
-      </a>
+      </a> */}
       </div>
       </>
 );

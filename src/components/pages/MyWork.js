@@ -1,5 +1,6 @@
 import React from 'react';
-import { Image } from 'react-native';
+import Layout from 'react-photo-gallery-react17';
+import { photos } from "../components/Photos";
 
 const styles = {
   h1: {
@@ -10,15 +11,18 @@ const styles = {
     fontWeight: "bold"
   },
   cards: {
-      width: "20rem", 
-      margin: "10px",
-      borderRadius: "8px",
-      color: "black",
-      lineHeight: "1",
+    width: "20rem", 
+    margin: "10px",
+    borderRadius: "8px",
+    color: "black",
+    lineHeight: "1",
   },
   div: {
     display: "flex",
     justifyContent: "center",
+  },
+  gallery: {
+    padding: "10px"
   }
 };
 
@@ -27,7 +31,13 @@ export default function Work() {
     <>
   <h1
   style={styles.h1}>PROJECTS.</h1>
-  <div
+    <div
+    style={styles.gallery}>
+    <Layout 
+    photos={photos} />
+    </div>
+
+  {/* <div
 
   className='row d-flex justify-content-center mx-0'
   style={styles.div}>
@@ -75,7 +85,7 @@ export default function Work() {
     <a href="https://kreativekntrl.github.io/weather-app/" className="btn btn-dark">VIEW MORE.</a>
   </div>
   </div>
-      </div>
+      </div> */}
     </>
     );
   }

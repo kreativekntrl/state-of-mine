@@ -6,7 +6,7 @@ const styles = {
   },
   link: {
     color: "white",
-    fontSize: "20px"
+    fontSize: "22px"
   },
 }
 
@@ -15,7 +15,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 <nav 
   style={styles.nav}
   className="navbar">
-<div className="jumbotron jumbotron-fluid">
+<div>
 </div>
     <ul className="nav nav-tabs">
       <li className="nav-item">
@@ -25,7 +25,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('AboutMe')}
           className="nav-link"
         >
-          About Me
+          home
         </a>
       </li>
       <li className="nav-item">
@@ -36,7 +36,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className="nav-link"
         >
-          My Work
+          work
         </a>
       </li>
       <li className="nav-item">
@@ -47,7 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className="nav-link"
         >
-          Contact
+          contact
         </a>
       </li>
       <li className="nav-item">
@@ -58,7 +58,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className="nav-link"
         >
-          Resume
+          resume
         </a>
       </li>
     </ul>
